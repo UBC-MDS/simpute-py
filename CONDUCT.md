@@ -1,3 +1,7 @@
+This project is created and maintained by students of the MDS Master of Data Science Program, class of 2023. 
+As such, this project will adhere to both the UBC Student Code of Conduct and the UBC MDS Leadership Code of Conduct. 
+Additionally, our project will follow the Code of Conduct below in the interest of fostering a respectful and collaborative environment.
+
 # Code of Conduct
 
 ## Our Pledge
@@ -34,7 +38,14 @@ This Code of Conduct applies both within project spaces and in public spaces whe
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team. The project team will review and investigate all complaints, and will respond in a way that it deems appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team:
+
+- Lisa Sequeira @LisaSeq
+- Renee Kwon @renee-kwon
+- Fujie Sun @Althrun-sun
+- Ken Wang @kenuiuc
+
+The project team will review and investigate all complaints, and will respond in a way that it deems appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
 
 Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
 
