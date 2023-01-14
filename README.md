@@ -1,4 +1,4 @@
-# simpute_py
+![](logo.png)
 
 A python package for simple data imputation
 
