@@ -1,4 +1,3 @@
-
 # simpute_py
 
 A python package for simple data imputation
