@@ -2,6 +2,12 @@
 
 A python package for simple data imputation
 
+## Contributors & Maintainers
+- [Lisa Sequeira](https://github.com/LisaSeq)
+- [Renee Kwon](https://github.com/renee-kwon)
+- [Fujie Sun](https://github.com/Althrun-sun)
+- [Ken Wang](https://github.com/kenuiuc)
+
 ## Installation
 
 ```bash
