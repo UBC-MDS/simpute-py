@@ -40,10 +40,10 @@ This Code of Conduct applies both within project spaces and in public spaces whe
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team:
 
-- Lisa Sequeira @LisaSeq
-- Renee Kwon @renee-kwon
-- Fujie Sun @Althrun-sun
-- Ken Wang @kenuiuc
+- [Lisa Sequeira](https://github.com/LisaSeq)
+- [Renee Kwon](https://github.com/renee-kwon)
+- [Fujie Sun](https://github.com/Althrun-sun)
+- [Ken Wang](https://github.com/kenuiuc)
 
 The project team will review and investigate all complaints, and will respond in a way that it deems appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
 
