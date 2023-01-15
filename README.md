@@ -49,7 +49,7 @@ Interested in contributing? Check out the contributing guidelines. Please note t
 
 ## License
 
-`simpute_py` was created by Ken Wang. It is licensed under the terms of the MIT license.
+`simpute_py` was created by Lisa Sequeira, Renee Kwon, Fujie Sun, and Ken Wang. It is licensed under the terms of the MIT license.
 
 ## Credits
 
