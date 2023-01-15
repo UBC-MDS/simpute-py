@@ -1,17 +1,16 @@
 ##package source code
 def num_imputer(x,col,method):
     """
-    Fill the empty values of a specific column with missing values to facilitate data preprocessing.
+    Fill the empty values of a specific column with imputed values to facilitate data preprocessing.
     
     Parameters
     ----------
     x: pandas dataframe
-        A pandas dataframe waiting for imputing
-   
+        A pandas dataframe for imputing
     col: string
-        name of the column waiting for imputing
+        name of the column to be imputed 
     method: string
-        A name of the imputing strategy,ont of the methods ['knn','quant_rand','mean','medien','mode','bayes'],default method is knn.
+        A name of the imputing strategy. They include ['knn','quant_rand','mean','median','mode','bayes'], the default method is knn.
     Returns
     ----------
     y: pandas dataframe
@@ -26,17 +25,16 @@ def num_imputer(x,col,method):
 
 def cat_imputer(x,col,method):
     """
-    Fill the empty values of a specific column with missing values to facilitate data preprocessing.
+    Fill the empty values of a specific column with imputed values to facilitate data preprocessing.
     
     Parameters
     ----------
     x: pandas dataframe
         A pandas dataframe waiting for imputing
-   
     col: string
         name of the column waiting for imputing
     method: string
-        A name of the imputing strategy,ont of the methods ['knn','frequent','bayes'],default method is knn.
+        A name of the imputing strategy. They include ['knn','frequent','bayes', 'rand'], the default method is knn.
     Returns
     ----------
     y: pandas dataframe
@@ -51,17 +49,16 @@ def cat_imputer(x,col,method):
 
 def bol_imputer(x,col,method):
     """
-    Fill the empty values of a specific column with missing values to facilitate data preprocessing.
+    Fill the empty values of a specific column with imputed values to facilitate data preprocessing.
     
     Parameters
     ----------
     x: pandas dataframe
-        A pandas dataframe waiting for imputing
-   
+        A pandas dataframe waiting for imputing  
     col: string
         name of the column waiting for imputing
     method: string
-        A name of the imputing strategy,ont of the methods ['knn','frequent','bayes'],default method is knn.
+        A name of the imputing strategy. They include ['knn','frequent','bayes', 'rand'], the default method is knn.
     Returns
     ----------
     y: pandas dataframe
@@ -76,17 +73,16 @@ def bol_imputer(x,col,method):
 
 def date_imputer(x,col,method):
     """
-    Fill the empty values of a specific column with missing values to facilitate data preprocessing.
+    Fill the empty values of a specific column with imputed values to facilitate data preprocessing.
     
     Parameters
     ----------
     x: pandas dataframe
         A pandas dataframe waiting for imputing
-   
     col: string
         name of the column waiting for imputing
     method: string
-        A name of the imputing strategy,ont of the methods ['knn','frequent','bayes','mean','median'],default method is knn.
+        A name of the imputing strategy. They include ['knn','frequent','bayes','rand'], the default method is knn.
     Returns
     ----------
     y: pandas dataframe
@@ -101,14 +97,14 @@ def date_imputer(x,col,method):
 
 def all_imputer(x,method):
     """
-    Fill the empty values of the whole table with missing values to facilitate data preprocessing.
+    Fill the empty values of the whole table with imputed values to facilitate data preprocessing.
     
     Parameters
     ----------
     x: pandas dataframe
         A pandas dataframe waiting for imputing
     method: string
-        A name of the imputing strategy,ont of the methods ['knn','frequent','bayes'],default method is knn.
+        A name of the imputing strategy. They include ['knn','frequent','bayes', 'rand'], the default method is knn.
     Returns
     ----------
     y: pandas dataframe
