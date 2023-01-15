@@ -35,7 +35,7 @@ We also have one additional function which will help you impute all missing valu
 
 ## Place in the Python Ecosystem
 
-Currently, there are many other ways you can impute a dataset, using various functions build within Python, but this packages it neatly into one place and simplifies the process. We do have other packages you can use such as [AutoImpute](https://pypi.org/project/autoimpute/) and [MIDASpy[(https://github.com/MIDASverse/MIDASpy)]. However our package aims to provide functionality not provided in either package and for more general audience use.
+Currently, there are many other ways you can impute a dataset, using various functions build within Python, but this packages it neatly into one place and simplifies the process. We do have other packages you can use such as [AutoImpute](https://pypi.org/project/autoimpute/) and [MIDASpy](https://github.com/MIDASverse/MIDASpy). However our package aims to provide functionality not provided in either package and for more general audience use.
 
 ## Contributing
 
