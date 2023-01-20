@@ -95,7 +95,7 @@ def date_imputer(x,col,method):
     """
     return 
 
-def all_imputer(x,method):
+def all_imputer(x,method,cat_col):
     """
     Fill the empty values of the whole table with imputed values to facilitate data preprocessing.
     
@@ -105,6 +105,8 @@ def all_imputer(x,method):
         A pandas dataframe waiting for imputing
     method: string
         A name of the imputing strategy. They include ['knn','frequent','bayes', 'rand'], the default method is knn.
+    cat_col: list
+        A list of the names of all categorical columns in the dataframe. 
     Returns
     ----------
     y: pandas dataframe
@@ -113,6 +115,6 @@ def all_imputer(x,method):
     Examples
     ----------
     >>> from simpute import all_imputer
-    >>> all_imputer(row_df,'knn')
+    >>> all_imputer(row_df,'knn', ['country', 'color'])
     """
     return 
