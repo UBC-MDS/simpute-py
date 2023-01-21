@@ -21,6 +21,11 @@ Case #,Date,Continent,Country,Deaths,Driver,Description,Source
 def test_date_imputer():
     col = 'Date'
     csvStringIO = StringIO(csv_string)
+
+    # before imputation there are null values
     input_df = pd.read_csv(csvStringIO, sep=",", parse_dates=['Date'])
-    output_df = date_imputer(input_df,'Date')
-    print(output_df.loc[:, col])
+    assert input_df.loc[:, col].isnull().any()
+
+    # after imputation, no null values anymore
+    output_df = date_imputer(input_df, col)
+    assert output_df.loc[:, col].isnull().any() == False
