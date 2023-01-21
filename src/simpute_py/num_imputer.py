@@ -149,3 +149,7 @@ def num_imputer(x,col,method=None):
             #default mean impute method
             print("method value wrong,the recent methd are ['knn','mean','median','mode'], the default method is mean.")
             # No need to break here, it'll stop anyway
+            
+def testData_reader(path):
+    df1=pd.read_csv(path)
+    return df1
