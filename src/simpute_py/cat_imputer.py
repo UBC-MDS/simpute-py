@@ -25,7 +25,11 @@ def cat_imputer(x,col):
     # check for bad input
     if not isinstance(x, pd.DataFrame):
         raise TypeError("Please pass in a Pandas DataFrame for `x`")
-    
+    if data.empty:
+        raise ValueError("DataFrame cannot be empty")
+    if col not in x.columns:
+        raise Exception("The given column does not exist in the dataframe.")
+       
     x[col].fillna(value=x[col].
                   value_counts().
                   index[0],
