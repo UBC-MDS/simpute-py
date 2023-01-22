@@ -1,5 +1,5 @@
 import pytest
-from bol_imputer import bol_imputer
+from simpute_py.bol_imputer import bol_imputer
 import pandas as pd
 import numpy as np
 
