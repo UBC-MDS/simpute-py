@@ -11,6 +11,7 @@ python = "^3.10"
 pandas = "^1.5"
 
 [tool.poetry.dev-dependencies]
+scikit-learn = "^1.1"
 pytest-cov = "^4.0"
 pytest = "^7.2"
 sphinx-autoapi = "^2.0"
