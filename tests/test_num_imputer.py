@@ -19,13 +19,26 @@ Case #,Date,Continent,Country,Deaths,Driver,Description,Source
 
 def test_num_imputer():
     csvStringIO = StringIO(csv_string)
-    df1 = pd.read_csv(csvStringIO, sep=",", parse_dates=['Date'])
     col='Deaths'
-    assert num_imputer(df1,col,'mode').isnull().sum()[list(df1.columns).index(col)]==0
-    assert num_imputer(df1,col,'mean').isnull().sum()[list(df1.columns).index(col)]==0
-    assert num_imputer(df1,col,method='median').isnull().sum()[list(df1.columns).index(col)]==0
-    assert num_imputer(df1,col,method='knn').isnull().sum()[list(df1.columns).index(col)]==0
-    assert num_imputer(df1,col).isnull().sum()[list(df1.columns).index(col)]==0
-    return
+    
+    # test there are null values before imputation
+    test_df = pd.read_csv(csvStringIO, sep=",", parse_dates=['Date'])
+    assert test_df.loc[:, col].isnull().any()
+    
+    # imputated value is the correct/most frequent value
+    assert num_imputer(test_df,col,'mode').isnull().sum()[list(test_df.columns).index(col)]==0
+    
+    # imputated value is the correct/mean value
+    assert num_imputer(test_df,col,'mean').isnull().sum()[list(test_df.columns).index(col)]==0
+    
+    # imputated value is the correct/median value
+    assert num_imputer(test_df,col,method='median').isnull().sum()[list(test_df.columns).index(col)]==0
+    
+    # imputated value is the correct/knn value
+    assert num_imputer(test_df,col,method='knn').isnull().sum()[list(test_df.columns).index(col)]==0
+    
+    # test the default params work.
+    assert num_imputer(test_df,col).isnull().sum()[list(test_df.columns).index(col)]==0
+
 
 
