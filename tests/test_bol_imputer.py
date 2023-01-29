@@ -3,7 +3,7 @@ from simpute_py.bol_imputer import bol_imputer
 import pandas as pd
 import numpy as np
 
-def test_bool_impute():
+def test_bol_imputer():
     #Test imputing is working as expected
     test_df = pd.DataFrame({'bool_1': [True, False, False, "", "", "True", "False", 1, 0], 'bool_2':["","","","","",0,1,0,1]})
     bol_imputer(test_df, 'bool_1')
