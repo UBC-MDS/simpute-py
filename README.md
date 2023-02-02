@@ -1,6 +1,6 @@
 ![](logo.png)
 
-### What does it do?
+### What does it do?i?
 Have you ever had a time when your missing data was holding you back? Well then this package is for you!
 
 Our python package for simple data imputation will allow you to quickly and seamlessly impute any missing data (be numeric, categorical, date/time or boolean values) using any large datasets.
