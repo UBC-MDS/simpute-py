@@ -2,6 +2,9 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.1 (2023-02-04)
+
+
 ## v0.1.0 (2023-02-03)
 ### Feature
 * Median date imputer implementation ([`f691cad`](https://github.com/UBC-MDS/simpute-py/commit/f691cad3dc6982a75ff917a4a9d6a7a2f4b032c9))
